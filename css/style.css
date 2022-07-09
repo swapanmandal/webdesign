@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: red
+}
+
+#admin-box {
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: 50% auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+input, label {
+    display: block;
+   
+
+
+}
+#admin-box h1 {
+    font-size: 50px;
+
+}
+#admin-box h1::after {
+    content: " ";
+    display: block;
+   border-top: 2px solid white;
+   margin: 20px 0px;
+}
+form { 
+
+}
+label {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+
+
+}
+input {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+input[type="submit"] {
+    background-color: blue;
+    color: aqua;
+    margin: 20px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    transition: ease-in-out 0.8s;
+
+}
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    
+
+}
+input::placeholder {
+    font-size: 15px;
+    color: red;
+
+}
+.pg {
+    font-size: 15px;
+    margin: 10px 0px;
+
+}
+.pg a {
+    color: red;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 5px;
+}
+
+
+
